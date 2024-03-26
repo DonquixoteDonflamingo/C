@@ -19,7 +19,7 @@ const char CPU = 'O';
 
 int main()
 {
-char Winner = ' ';
+char winner = ' ';
 
     ResetBoard();
     PrintBoard();
@@ -64,7 +64,7 @@ void printWinner(char)
 
 }
 
-int chechFreeSpaces()
+int checkFreeSpaces()
 {
 
 }
