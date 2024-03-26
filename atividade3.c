@@ -7,6 +7,9 @@ int main(int argc, char* argv[])
 int qtd_n = argc -1;
 int soma_n = 0;
 int med_n = 0;
+int menor_n = atoi(argv[i]);
+int maior_n = atoi(argv[i]);
+int vetor_ord_n[]
 
 for(int i = 1; i <= qtd_n, i++);
 {
