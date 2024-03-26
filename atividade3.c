@@ -25,10 +25,25 @@ maior_n = n;
 }
 }
 
-int med_n = (float)soma_n / qtd_n;
+med_n = (float)soma_n / qtd_n;
     
     printf("\nQuantidade de numeros recebidos: %d\n", qtd_n);
     printf("Valor medio dos numeros: %.2f\n", med_n);
+    printf("Menor numero: %d\n", menor_n);
+    printf("Maior numero: %d\n", maior_n);
+
+for(int i = 0, i < qtd_n-1; i++)
+{
+for(int j = i; j < qtd_n; i++)
+{
+if(vetor_ord_n[i] > vetor_ord_n[j])
+{
+    int aux = vetor_ord_n[j];
+    vetor_ord_n[j] = vetor_ord_n[i];
+    vetor_ord_n[i] = aux;
+}
+}
+}
 
     exit(0);
 }
